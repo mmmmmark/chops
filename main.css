@@ -43,39 +43,25 @@ table {
 }
 
 /* Actual CSS starst here */
+
 header {
 	height: 100px;
 	background-color: #ED834E;
 	color: #fff;
 }
 
-h1 {
-	font-size: 48px;
-}
-
-h2 {
-	font-size: 34px;
-	font-weight: bold;
-}
-
-p {
-	font-size: 24px;
-	line-height: 28px;
-}
-
 .logo {
 	margin-top: 21px;
 }
 
-.everything-content {
+.header-content {
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top:-20px;
-	font-family: 'Alegreya', serif;
+	margin-top: -20px;
 }
 
-.everything {
+.main-content {
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
@@ -83,87 +69,62 @@ p {
 }
 
 .date {
-	font-size: 34px;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.date h1 {
+	font-size: 30px;
 	font-weight: bold;
-	margin-bottom: 30px;
-	margin-top: 30px;
-}
-
-.welcome-page {
-	background-color: #ED834E; 
-}
-
-.big-logo {
-	width: 256px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 30px;
-}
-
-.big-headline {
-	text-align: center;
-	font-family: lato;
-	font-weight: 400px;
-	margin-bottom: 30px;
-}
-
-.welcome {
-	text-align: left;
-	margin-top: 30px;
-	color: #fff;
+	color: #303030;
 }
 
 .prompt-box {
 	width: 900px;
 	background-color: #F7F7F7;
 	padding: 30px;
-	font-size: 24px;
-	line-height: 28px;
 	text-align: justify;
 }
 
-.prompt {
+.prompt-box p {
+	font-size: 20px;
+	line-height: 28px;
+	color: #303030;
 }
 
 .prompt-author {
 	padding-top: 30px;
 	text-align: right;
 	font-style: italic;
+	color: #303030;
 }
 
 .instructions {
-	font-size: 34px;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.instructions h1 {
+	font-size: 30px;
 	font-weight: bold;
-	margin-bottom: 30px;
-	margin-top: 30px;
+	color: #303030;
 }
 
-.name-box {
-	font-family: 'Alegreya', serif;
-	width: 962px;
-}
-
-#commentBox {
-	display: block;
-	width: 940px;
-	height: 300px;
-	padding: 10px;
-	border: 1px solid #cccccc;
-	line-height: 28px;
-	font-size: 24px;
+.input-boxes {
 	font-family: 'Alegreya', serif;
 }
 
-.short-form {
-	width:464px;
+.short-forms {
+	width: 460px;
 	height: 50px;
 	display: inline-block;
 	margin-bottom: 10px;
-	border: 1px solid #cccccc;
+	border: 1px solid #BFBFBF;
 	padding-left: 10px;
 	line-height: 28px;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: 'Alegreya', serif;
+	color: #303030;
 }
 
 #short-form-left {
@@ -174,18 +135,67 @@ p {
 	float:right;
 }
 
+#commentBox {
+	display: block;
+	width: 940px;
+	height: 300px;
+	padding: 10px;
+	border: 1px solid #BFBFBF;
+	line-height: 28px;
+	font-size: 20px;
+	font-family: 'Alegreya', serif;
+	color: #303030;
+}
+
 #button {
 	float:right;
 	background-color: #ED834E;
-    color: #fff;
-    width: 230px;
+    color: #FFFFFF;
+    width: 130px;
     font-family: 'Alegreya', serif;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
     cursor: pointer;
-    border:none;
+    border: none;
     padding: 10px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
