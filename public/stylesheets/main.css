@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Actual CSS starst here */
+
+header {
+	height: 100px;
+	background-color: #ED834E;
+	color: #fff;
+}
+
+.logo {
+	margin-top: 21px;
+}
+
+.header-content {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -20px;
+}
+
+.main-content {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Alegreya', serif;
+}
+
+.date {
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.date h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #303030;
+}
+
+.prompt-box {
+	width: 900px;
+	background-color: #F7F7F7;
+	padding: 30px;
+	text-align: justify;
+}
+
+.prompt-box p {
+	font-size: 20px;
+	line-height: 28px;
+	color: #303030;
+}
+
+.prompt-author {
+	padding-top: 30px;
+	text-align: right;
+	font-style: italic;
+	color: #303030;
+}
+
+.instructions {
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.instructions h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #303030;
+}
+
+.input-boxes {
+	font-family: 'Alegreya', serif;
+}
+
+.short-forms {
+	width: 462px;
+	height: 50px;
+	display: inline-block;
+	margin-bottom: 10px;
+	border: 1px solid #BFBFBF;
+	padding-left: 10px;
+	line-height: 28px;
+	font-size: 20px;
+	font-family: 'Alegreya', serif;
+	color: #303030;
+}
+
+#short-form-left {
+	float:left;
+}
+
+#short-form-right {
+	float:right;
+}
+
+#commentBox {
+	display: block;
+	width: 940px;
+	height: 300px;
+	padding: 10px;
+	border: 1px solid #BFBFBF;
+	line-height: 28px;
+	font-size: 20px;
+	font-family: 'Alegreya', serif;
+	color: #303030;
+}
+
+#button {
+	float:right;
+	background-color: #ED834E;
+    color: #FFFFFF;
+    width: 130px;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
