@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<section class="date">
+	<h1>Excerpt for August 16, 2014</h1>
+</section>
+
+<section class="prompt-box">
+	<p class="prompt">"Clashes between heavily armed police officers and furious protesters in Ferguson have defined the aftermath of an officer’s fatal shooting of an unarmed teenager on Saturday, and the latest moves came as federal and state officials scrambled to quell the growing crisis. Alarm had been rising across the country at images of a mostly white police force, in a predominantly African-American community, aiming military-style weapons at protesters and firing tear gas and rubber bullets."</p>
+	<p class="prompt-author">"New York Times", ISIS and the Iraq War Crisis</p>
+</section>
+
+<section class="date">
+	<h1>Editted entries</h1>
+</section>
+			
+<section>
+	<ul>
+		{% for doc in docs %} 
+			<li>
+				<p>{{doc.body}}</p>
+				<p>{{doc.name}}</p>
+				<p>{{doc.city}}</p>
+			</li>
+		{% endfor %}
+	</ul>
+</section>
+
+{% endblock %}

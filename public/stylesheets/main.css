@@ -147,7 +147,7 @@ header {
 	color: #303030;
 }
 
-#button {
+.submitBtn {
 	float:right;
 	background-color: #ED834E;
     color: #FFFFFF;
@@ -160,6 +160,7 @@ header {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 60px;
+    text-align: center;
 }
 
 

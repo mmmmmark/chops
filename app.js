@@ -7,7 +7,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var submitted = require("./routes/submitted");
+var entries = require('./routes/entries');
 
 var app = express();
 app.engine("html", swig.renderFile);
@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use("/submitted", submitted);
+app.use('/entries', entries);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
