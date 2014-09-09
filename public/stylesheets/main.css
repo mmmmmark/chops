@@ -221,6 +221,29 @@ header {
 	padding: 10px;
 }
 
+.like {
+	color: #ED834E;
+	display: inline;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.comment {
+	display: inline;
+	color: #ED834E;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.feedBack img {
+	display: inline;
+	height: 17px;
+	display: none;
+}
+
+
+
+
 
 
 

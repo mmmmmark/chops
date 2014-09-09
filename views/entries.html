@@ -13,7 +13,7 @@
 
 <section class="date editSection">
 	<h1>Editted entries</h1>
-</section>
+</sectionw;
 			
 <section>
 	<ul>
@@ -21,8 +21,15 @@
 			<li class="displayedEntry">
 				<p class="bodyText">"{{entry.body}}"</p>
 				<p class="nameCityText">{{entry.name}}, {{entry.city}}</p>
+				<div class="feedBack">
+					<p class="comment">Comment</p>
+					<p class="like">Like</p>
+					<img src="images/like.png">
+				</div>
 			</li>
+
 		{% endfor %}
+		
 	</ul>
 	<form action="/">
 		<input type="submit" value="Time to Edit" class="submitBtn backToEdit">
