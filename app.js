@@ -8,6 +8,9 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var entries = require('./routes/entries');
+var addPrompt = require('./routes/addPrompt');
+var prompts = require('./routes/prompts');
+
 
 var app = express();
 app.engine("html", swig.renderFile);
@@ -25,6 +28,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/entries', entries);
+app.use('/addPrompt', addPrompt);
+app.use('/prompts', prompts);
+
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {

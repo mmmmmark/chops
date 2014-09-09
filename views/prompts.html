@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+	<section class="date">
+		<h1>Prompts</h1>
+	</section>
+
+	{% for prompt in prompts %}
+	<section class="prompt-box listedPrompts">
+		<p class="prompt">
+			{{ prompt.text }}
+		</p>
+		<p class="prompt-author">
+			{{ prompt.source }}, {{ prompt.title }}
+		</p>
+	</section>
+	{% endfor %}
+	<form action="/">
+		<input type="submit" value="Today's Prompt" class="submitBtn promptBtn">
+	</form>
+{% endblock %}

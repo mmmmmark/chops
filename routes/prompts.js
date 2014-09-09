@@ -3,8 +3,8 @@ var router = express.Router();
 var models = require("../models");
 
 router.get('/', function(req, res) {
-	models.Entry.find(function(err, documents) {
-		res.render('entries', { entries: documents });
+	models.Prompt.find(function(err, prompts) {
+		res.render('prompts', { prompts: prompts });
 	});
 });
 

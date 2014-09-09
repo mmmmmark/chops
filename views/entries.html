@@ -11,20 +11,22 @@
 	<p class="prompt-author">"New York Times", ISIS and the Iraq War Crisis</p>
 </section>
 
-<section class="date">
+<section class="date editSection">
 	<h1>Editted entries</h1>
 </section>
 			
 <section>
 	<ul>
-		{% for doc in docs %} 
-			<li>
-				<p>{{doc.body}}</p>
-				<p>{{doc.name}}</p>
-				<p>{{doc.city}}</p>
+		{% for entry in entries %} 
+			<li class="displayedEntry">
+				<p class="bodyText">"{{entry.body}}"</p>
+				<p class="nameCityText">{{entry.name}}, {{entry.city}}</p>
 			</li>
 		{% endfor %}
 	</ul>
+	<form action="/">
+		<input type="submit" value="Time to Edit" class="submitBtn backToEdit">
+	</form>
 </section>
 
 {% endblock %}

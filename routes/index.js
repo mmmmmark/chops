@@ -7,6 +7,14 @@ router.get('/', function(req, res) {
   res.render('index');
 });
 
+// router.get('/chops/:url_name', function(req, res) {
+//   var url_name = req.params.url_name;
+//   models.Prompt.find({ url_name: url_name }, function(err, prompts) {
+//     var foundPrompt = prompts[0];
+//     res.render('show', { prompt: foundPrompt })
+//   });
+// });
+
 router.post('/entries', function(req, res) {
   var nameInput = req.body.nameInput;
   var placeOfOrigin = req.body.placeOfOrigin;
@@ -19,9 +27,8 @@ router.post('/entries', function(req, res) {
   });
 
   entry.save();
-  
+  res.redirect('/entries')
 });
-
 
 module.exports = router;
 

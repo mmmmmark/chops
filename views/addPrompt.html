@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+	<section class="date">
+		<h1>Create a prompt</h1>
+	</section>
+
+	<form class="input-boxes" action="/addPrompt/prompts" method="POST">
+		<textarea id="commentBox" name="uneditedText" placeholder="Text to be edited." required></textarea>
+		<input class="short-forms" id="short-form-left" type="text" name="textSource" placeholder="Name of Text Source" required>
+		<input class="short-forms" id="short-form-right" type="text" name="titleOfText" placeholder="Title of Text" required>
+		<input type="submit" value="Add Prompt" class="submitBtn addBtn">
+	</form>
+
+{% endblock %}

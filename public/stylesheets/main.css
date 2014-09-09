@@ -54,6 +54,17 @@ header {
 	margin-top: 21px;
 }
 
+.addPrompt {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 100px;
+	margin-left: 40px;
+	position: relative;
+	display: inline;
+	bottom: 10px;
+}
+
 .header-content {
 	width: 960px;
 	margin-right: auto;
@@ -79,11 +90,19 @@ header {
 	color: #303030;
 }
 
+.editSection h1 {
+	margin-bottom: 20px;
+}
+
 .prompt-box {
 	width: 900px;
-	background-color: #F7F7F7;
+	background-color: #F0F0F0;
 	padding: 30px;
 	text-align: justify;
+}
+
+.listedPrompts {
+	margin-bottom: 20px;
 }
 
 .prompt-box p {
@@ -140,6 +159,7 @@ header {
 	width: 940px;
 	height: 300px;
 	padding: 10px;
+	margin-bottom: 10px;
 	border: 1px solid #BFBFBF;
 	line-height: 28px;
 	font-size: 20px;
@@ -158,10 +178,51 @@ header {
     cursor: pointer;
     border: none;
     padding: 10px;
-    margin-top: 10px;
     margin-bottom: 60px;
     text-align: center;
 }
+
+.promptBtn {
+	width: 160px;
+}
+
+.displayedEntry {
+	width: 900px;
+	border: 1px solid #BFBFBF;
+	padding: 30px;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.bodyText {
+	font-size: 20px;
+	line-height: 28px;
+	color: #303030;
+	font-family: Alegreya;
+}
+
+.nameCityText {
+	padding-top: 30px;
+	text-align: right;
+	font-style: italic;
+	color: #303030;
+}
+
+.backToEdit {
+	margin-top: 10px;
+}
+
+.viewAllBtn {
+	font-family: Alegreya;
+	font-size: 20px;
+	background-color: #ED834E;
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px;
+}
+
+
+
 
 
 
